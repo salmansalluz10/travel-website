@@ -1,0 +1,353 @@
+*{
+    font-family: "Merriweather", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#nav-bar{
+    background-color: #004449;
+}
+
+#cheap-flights{
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+#cheap-flights:hover{
+    background-color: #d7ffc2;
+    color: #004449;
+    border-radius: 100vh;
+}
+
+#nav-login{
+    width: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+#nav-login:hover{
+    background-color: #d7ffc2;
+    color: #004449;
+    border-radius: 100vh;
+}
+
+#signup{
+    width: 200px;
+    background-color: #0bff80;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 100vh;
+    color: #004449;
+}
+
+#signup:hover{
+    background-color: #004449;
+    color: #0bff80;
+    border: 2px solid;
+    border-color: #0bff80;
+}
+
+@media(max-width:600px){
+    *{
+        overflow-x: hidden;
+    }
+    #signup{
+        margin-left: 70px;
+    }
+
+    #main-div{
+        padding-top: 150px;
+    }
+}
+
+#main-div{
+    height: 100vh;
+    background-color: #d7ffc2;
+}
+
+
+#main-div h1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    color: #004449;
+    font-weight: bold;
+}
+
+.style1{
+    color: #004449;
+    font-weight: bold;
+}
+
+.input-search{
+    width: 50%;
+    height: 10%;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-radius: 100vh;
+}
+
+.seach-trvl{
+    text-align: center;
+    color: #004449;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.arrow{
+    width: 150px;
+    position: relative;
+    bottom: 150px;
+    left: 150px;
+}
+
+.map{
+    position: relative;
+    bottom: 8rem;
+    left: 900px;
+}
+
+@media(max-width:600px){
+    #main-div h1{
+        font-size: 30px;
+    }
+    .input-search{
+        height: 40px;
+     margin-left: 100px;
+    }
+    .arrow{
+        visibility: hidden;
+    }
+    .map{
+        visibility: hidden;
+    }
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    iframe{
+        width: 300px;
+    }
+    .image-caption{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+}
+
+iframe{
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.h-flight-deals{
+    font-size: 30px;
+    color: #004449;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    #btn2{
+        margin-left: -30rem;
+    }
+}
+
+#get-going{
+    padding-top: 60px;
+}
+
+.quote1{
+    font-size: 20px;
+    color: #004449;
+    text-align: center;
+}
+
+.quote2{
+    font-size: 25px;
+    color: #004449;
+    text-align: center;
+}
+
+#signup2{
+    padding-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 100vh;
+    color: white;
+    margin-left: 35rem;
+    font-weight: bold;
+}
+
+#signup2:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#short-div{
+    position: relative;
+    width: 1000px;
+    text-align: center;
+    background-color: #baebff;
+    padding-top: 50px;
+    left: 150px;
+    top: 100px;
+    border-radius: 10px;
+}
+
+
+.h2-line{
+    color: #004449;
+    font-size: 50px;
+}
+
+.h3-line{
+    font-size: 30px;
+     padding-top: 50px; 
+     color: #004449;
+}
+
+@media(max-width:600px){
+    #short-div{
+        width: 300px;
+        left: 45px;
+    }
+    .h2-line{
+        font-size: 20px;
+    }
+    .h3-line{
+        font-size: 15px;
+    }
+    .illustr{
+        width: 100px;
+    }
+    #signup3{
+        margin-left: 480px;
+    }
+    
+}  
+ 
+#signup3{ 
+    padding-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #baebff;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 100vh;
+    color: #004449;
+    font-weight: bold;
+} 
+
+#signup3:hover{
+    background-color: #004449;
+    color: white;
+}
+
+
+#div-expert{
+    margin-top: 200px; 
+    background-color: cadetblue;
+    padding-top: 10%;
+    text-align: center;
+    height: 500px;
+}
+
+@media(max-width:600px){
+    #div-expert{
+        width: 390px;
+    }
+    #div-expert h1{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    #div-expert p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    #flight-1{
+        height: 500px;
+    }
+    #flight-2{
+        height: 500px;
+    }
+    #flight-3{
+        height: 500px;
+    }
+
+}
+
+#div-expert h1{
+    color: white;
+    font-weight: bold;
+}
+
+#div-expert p{
+    margin-top: 50px;
+}
+
+#fav-cities{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#fav-cities h1{
+    color: #004449;
+}
+
+
+#popular-destination{
+    text-align: center;
+    background-color: #004449;
+}
+
+#popular-destination h1{
+    padding-top: 100px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+footer h5{
+    font-size: 30px;
+}
+
+
+.img-bali:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.animated-img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-img:hover {
+    transform: scale(1.1);
+  }
+
+  .animated-icon i {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .animated-icon i:hover {
+    transform: scale(1.2);
+    color: #ffcc00; 
+  }
+
+
+ 
